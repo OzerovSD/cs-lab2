@@ -10,5 +10,6 @@ int main()
     cout << "Sum: " << a + b << endl;
     cout << "Raz: " << a - b << endl;
     cout << "A + B = " << a + b << '\n'
-         << "A - B = " << a - b << '\n';
+         << "A - B = " << a - b << '\n'
+         << "A * B = " << a * b << '\n';
 }
