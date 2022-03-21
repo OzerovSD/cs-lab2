@@ -12,5 +12,7 @@ int main()
     cout << "Proiz: " <<a*b<< endl;
     cout << "A + B = " << a + b << '\n'
          << "A - B = " << a - b << '\n'
-         << "A * B = " << a * b << '\n';
+         << "A * B = " << a * b << '\n'
+         << "A / B = " << a / b << '\n';
 }
+
