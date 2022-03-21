@@ -7,6 +7,11 @@ int main()
     cout << "Enter A and B: ";
     int a, b;
     cin >> a >> b;
+    if (a>b)
+        cout <<"Max = " << a << '\n';
+    else
+        cout <<"Max = " << b<< '\n';
+
     cout << "Sum: " << a + b << endl;
     cout << "Raz: " << a - b << endl;
     cout << "Proiz: " <<a*b<< endl;
